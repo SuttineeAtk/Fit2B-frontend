@@ -1,0 +1,60 @@
+.AddActivities {
+    margin-top: 50px;;
+    background-color: #F5F5F5;
+    margin: 0, auto;
+    display: flex;
+    text-align: center; 
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.AddEdit{
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectActivity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+input {
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #a7a7a7;
+}
+
+.Title{
+    width: 40%;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.button button{
+    background-color: #F8763D;
+    color: white;
+    scroll-margin-block: 0;
+    border-radius: 10px;
+    margin: 3rem 2rem;
+    border: none;
+}
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.label {
+    margin-right: 5px;
+}
