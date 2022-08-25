@@ -76,7 +76,7 @@ function Editactivities(props) {
             img: image
         };
         instance.put(`/activities/${activity_id}`, data)
-            .then(
+            .then(()=>
                 Swal.fire({
                     position: 'center',
                     icon: 'success',
@@ -128,7 +128,7 @@ function Editactivities(props) {
                                     <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} maxDate={new Date()} />
                                 </div>
                                 <div className="test">
-                                    <p className="label">TIME</p>
+                                    <p className="label">SPEND TIME</p>
                                     <input type="time" placeholder="00:00" defaultValue={activity.time} onChange={e => setupdateTime(e.target.value)} />
                                 </div>
 
